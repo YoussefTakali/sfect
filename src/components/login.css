@@ -1,0 +1,100 @@
+.container {
+  position: absolute;
+  border: solid;
+  width: 350px;
+  height: 400px;
+  top: 170px;
+  left: 900px;
+  border-radius: 10px;
+  background-color: #181818;
+  border-color: #181818;
+}
+
+.title {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  height: 50px;
+  color: white;
+  margin-top: 28px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mail label {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.pass {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.pass label {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.submit {
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 25px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-image: linear-gradient(to right, #1b1b1b, #06071b);
+}
+
+.email {
+  height: 35px;
+  border-radius: 6px;
+  border-width: 1px;
+  border-color: #797979;
+  background-color: #181818;
+  padding-left: 40px;
+  border-style: solid;
+}
+
+::placeholder {
+  cursor: pointer;
+}
+.password {
+  height: 35px;
+  border-radius: 6px;
+  border-width: 1px;
+  border-color: #797979;
+  background-color: #181818;
+  padding-left: 40px;
+  border-style: solid;
+}
+
+.fpass {
+  margin-top: -1px;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: white;
+  padding-right: 10px;
+}
