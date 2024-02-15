@@ -9,7 +9,7 @@ function Login() {
         <img src={image} alt="taswira" />
       </div>
       <div className="container">
-        <h1 className="title">Welcome back</h1>
+        <h1 className="title">Welcome back !</h1>
         <form className="form">
           <div className="mail">
             <label htmlFor="email">Email</label>
